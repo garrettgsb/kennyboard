@@ -1,5 +1,5 @@
 body {
-  background: aliceblue;
+  background: #333;
 }
 
 main {
@@ -13,20 +13,21 @@ main {
 }
 
 #controls > button {
-  background: #EEEEFF;
+  background: #AAAAAA;
   border: none;
   font-size: 24px;
   margin: 6px;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 #controls > button.selected {
-  box-shadow: inset 2px 2px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 2px 2px 0px rgba(0,0,0,0.6);
 }
 
 #multicanvas {
   flex-grow: 1;
   position: relative;
+  background: #111;
   border: 2px solid dodgerblue;
   cursor: crosshair;
 }

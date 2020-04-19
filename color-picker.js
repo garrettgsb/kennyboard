@@ -1,11 +1,10 @@
 const colors = [
-  '#000',
+  '#fff',
   '#b7a6bc',
   '#bfcaae',
   '#efb49f',
   '#ba9b28',
   '#406a5e',
-  '#00000',
   '#cb633d',
 ];
 

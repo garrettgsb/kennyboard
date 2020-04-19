@@ -4,6 +4,7 @@ const canvas = document.querySelector('#canvas-main');
 canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
 const ctx = canvas.getContext('2d');
+ctx.strokeStyle = '#fff';
 
 
 const previewCanvas = document.querySelector('#canvas-preview');
